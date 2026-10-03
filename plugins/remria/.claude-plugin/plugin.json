@@ -1,7 +1,7 @@
 {
   "name": "remria",
-  "version": "1.1.0",
-  "description": "Read your organization's shared skills and propose reusable corrections through Remria.",
+  "version": "1.2.0",
+  "description": "Use company, team, and private personal rules; publish and review changes with your Remria permissions.",
   "author": {
     "name": "Remria",
     "url": "https://app.remria.com"

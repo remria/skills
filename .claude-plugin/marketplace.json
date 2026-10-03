@@ -6,8 +6,8 @@
   "plugins": [
     {
       "name": "remria",
-      "description": "Use your organization\u2019s shared skills and suggest reusable corrections.",
-      "version": "1.1.0",
+      "description": "Company, team, and personal rules with permission-based publishing and review.",
+      "version": "1.2.0",
       "source": "./plugins/remria"
     }
   ],

@@ -16,3 +16,7 @@ This public repository contains only connection settings and general agent instr
 Setup for other clients: https://app.remria.com/agent-setup/prompt.md
 
 To remove: `claude plugin uninstall remria@remria`, then `/reload-plugins`. Revoke the matching connection in Remria Setup as well if you want to invalidate its access.
+
+## Rule scopes and publishing
+
+New rules default to personal within the connected organization. Company requirements take precedence over team requirements, then personal preferences. Agents save only confirmed or explicitly requested rules. Skill owners and authorized admins can explicitly publish edits and review suggestions. Promoting a private rule shares only the selected snapshot for target-admin review, not private history. Use `list_rule_scopes` to see available teams and permissions.
