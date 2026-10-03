@@ -1,0 +1,17 @@
+{
+  "name": "remria",
+  "owner": {
+    "name": "Remria"
+  },
+  "plugins": [
+    {
+      "name": "remria",
+      "description": "Use your organization\u2019s shared skills and suggest reusable corrections.",
+      "version": "1.0.0",
+      "source": "./plugins/remria"
+    }
+  ],
+  "metadata": {
+    "description": "Shared organizational skills for agents, connected through Remria."
+  }
+}

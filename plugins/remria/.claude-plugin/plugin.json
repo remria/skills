@@ -1,0 +1,7 @@
+{
+  "name": "remria",
+  "version": "1.0.0",
+  "description": "Read your organization's shared skills and propose reusable corrections through Remria.",
+  "author": { "name": "Remria", "url": "https://app.remria.com" },
+  "homepage": "https://app.remria.com/agent-setup/prompt.md"
+}

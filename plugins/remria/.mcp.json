@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "remria": { "type": "http", "url": "https://app.remria.com/mcp" }
+  }
+}
