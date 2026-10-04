@@ -20,3 +20,9 @@ To remove: `claude plugin uninstall remria@remria`, then `/reload-plugins`. Revo
 ## Rule scopes and publishing
 
 New rules default to personal within the connected organization. Company requirements take precedence over team requirements, then personal preferences. Agents save only confirmed or explicitly requested rules. Skill owners and authorized admins can explicitly publish edits and review suggestions. Promoting a private rule shares only the selected snapshot for target-admin review, not private history. Use `list_rule_scopes` to see available teams and permissions.
+
+## Team management from agents
+
+Use `list_organization_members` and `list_teams` to find people, team membership, current versions and management permissions. Organization admins can `create_team`; team or organization admins can `update_team` to rename a team or replace its complete membership and roles. Omitted fields stay unchanged. Updates require the current version and retain at least one team admin; members must already belong to the connected organization. Team membership grants access to its rules. These tools do not invite or remove organization members.
+
+Older connections retain their existing rule access but must sign in again to approve team management. Older API keys need replacing from Setup. Token refresh preserves the original grant; it never adds team management.
