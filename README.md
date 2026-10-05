@@ -1,3 +1,5 @@
+> **Retired October 5, 2026.** The Remria organization-skills product and its MCP service have been decommissioned. This repository is preserved for reference. Do not install this integration or follow the historical setup instructions below. The original personal cloud workspace is available at https://remria.com and https://app.remria.com.
+
 # Remria agent plugin
 
 Connect Claude Code to your organization’s skills in Remria.
